@@ -1,3 +1,6 @@
+# Dont sync any files in the secret folder to provent acidentally sharing passwords/keys
+secret/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
