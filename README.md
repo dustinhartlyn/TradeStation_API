@@ -12,5 +12,18 @@ I spent my precious free hours as a new dad making this script usable for others
 
 The purpose of this script is to help make you money. If it helps add benefit to your life please pay it forward by either helping me add features to this library or find other ways to make life better for others. 
 
+# Notes on contribution
+Visual Studio Code is a free software that is great for working with the code and making contributions. 
+I believe that the “secrets” folder will not be synced for other contributors because it is in the .gitignore file, however I needed to do the following steps to get it to stop syncing for myself:
+
+1) Enter this command in terminal:
+git rm secret/ -r --cached 
+
+2) Next commit the change with this command:
+git commit -m “<secret>”
+
+3) Before making any other commits make sure the .gitignore file has the following command and sync just that file:
+secret/
+
 # Credits
 Project uses code from both pattertj/ts-api and also Himangshu4Das/tradestation-v3-python-api. It appears both projects are stale and after spending a lot of time with both I decided to start a new project for the freedom to carry their work further. While I believe this project will offer some valuable improvements above the previous work, please know that both of these projects were both used as a starting point. 
