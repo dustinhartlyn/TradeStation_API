@@ -12,9 +12,5 @@ I spent my precious free hours as a new dad making this script usable for others
 
 The purpose of this script is to help make you money. If it helps add benefit to your life please pay it forward by either helping me add features to this library or find other ways to make life better for others. 
 
-# Notes on contribution
-Visual Studio Code is a free software that is great for working with the code and making contributions. However I recommend running the following command in the terminal so that you do not accidentally sync the 'secret' folder with your confidential information: 
-git rm secret/ -r --cached 
-
 # Credits
 Project uses code from both pattertj/ts-api and also Himangshu4Das/tradestation-v3-python-api. It appears both projects are stale and after spending a lot of time with both I decided to start a new project for the freedom to carry their work further. While I believe this project will offer some valuable improvements above the previous work, please know that both of these projects were both used as a starting point. 
